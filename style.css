@@ -1,8 +1,24 @@
 body{
     font-family: 'Rubik', sans-serif;
+    margin: 0px;
+}
+section{
+    height: 450px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("img/Background-top.png");
+    background-repeat: no-repeat;
+    width: 100%;
 }
 h1{
     font-size: 60px;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: dimgray;
 }
 .name{
     color: orange;
@@ -15,7 +31,23 @@ h1{
     text-align: justify;
     
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(113, 62, 62), black);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
 .Half-width img{
     width: 80%;
     padding-left: 80px;
+}
+.Dream-area{
+    background-image: url(img/Dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 50px;
 }
