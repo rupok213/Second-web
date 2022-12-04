@@ -59,11 +59,14 @@ p{
     background-position: left;
     margin: 0px;
     
+    
 }
 .experience-single{
     box-shadow: 10px 10px 30px gray;
     border-radius: 15px;
     height: 250px;
+    margin: 30px;
+    background-color: white;
 }
 #full-stack{
     border-bottom: 8px solid;
@@ -76,4 +79,8 @@ p{
     border-left: 8px solid;
     border-image: linear-gradient(180deg, black, gray);
     border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
