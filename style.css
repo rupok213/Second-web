@@ -20,14 +20,16 @@ h2{
 p{
     color: dimgray;
 }
-.name{
+.orange-name{
     color: orange;
 }
 .Half-width{
-    width: 40%;
+    width: 37%;
     float: left;
-    margin-left: 4%;
-    padding-left: 5%;
+    margin-left: 1%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 6%;
     text-align: justify;
     
 }
@@ -46,8 +48,32 @@ p{
     padding-left: 80px;
 }
 .Dream-area{
-    background-image: url(img/Dream-bg.png);
+    background-image: url("img/Dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 50px;
+}
+.experience-area{
+    background-image: url("img/experience-half.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0px;
+    
+}
+.experience-single{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    height: 250px;
+}
+#full-stack{
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, rgb(190, 255, 255));
+    border-image-slice: 1;
+}
+#baby-web{
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, black, gray);
+    border-image-slice: 1;
 }
